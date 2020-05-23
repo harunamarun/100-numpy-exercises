@@ -1,0 +1,16 @@
+import numpy as np
+# 36. Extract the integer part of a random array using 5 different methods (★★☆)
+Z = np.random.uniform(0, 10, 5)
+print(Z)
+###
+print(Z//1)
+print(np.ceil(Z)-1)
+print(np.floor(Z))
+print(np.trunc(Z))
+print(Z-Z%1)
+### i can use cast(astype)
+# print (Z - Z%1)
+# print (np.floor(Z))
+# print (np.ceil(Z)-1)
+# print (Z.astype(int))
+# print (np.trunc(Z))
